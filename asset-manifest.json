@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ethicval/static/css/main.c61fe05b.css",
-    "main.js": "/ethicval/static/js/main.a6035c61.js",
+    "main.js": "/ethicval/static/js/main.403dc1c5.js",
     "static/media/stats-illustration.svg": "/ethicval/static/media/stats-illustration.89e20edcbf2cccadc1f28b4a73a486ac.svg",
     "static/media/email-illustration.svg": "/ethicval/static/media/email-illustration.84fb82b841c197337a4bc2c1e660d5a0.svg",
     "static/media/team-illustration-2.svg": "/ethicval/static/media/team-illustration-2.76aa0427e037826d4453f8791ee544e3.svg",
@@ -38,10 +38,10 @@
     "static/media/minus.svg": "/ethicval/static/media/minus.595a628f1d89b51f5ee67012ae076ac8.svg",
     "static/media/facebook-icon.svg": "/ethicval/static/media/facebook-icon.8f6512c4ee4f21763666f0f3b69d970d.svg",
     "main.c61fe05b.css.map": "/ethicval/static/css/main.c61fe05b.css.map",
-    "main.a6035c61.js.map": "/ethicval/static/js/main.a6035c61.js.map"
+    "main.403dc1c5.js.map": "/ethicval/static/js/main.403dc1c5.js.map"
   },
   "entrypoints": [
     "static/css/main.c61fe05b.css",
-    "static/js/main.a6035c61.js"
+    "static/js/main.403dc1c5.js"
   ]
 }
