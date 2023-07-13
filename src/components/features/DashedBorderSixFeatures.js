@@ -64,31 +64,28 @@ export default () => {
 
   const cards = [
     {
+      imageSrc: WebIconImage, title: "Web Development",
+      description: "Ethic Val's web development team creates stunning, user-friendly websites that drive business growth"
+    },
+    {
+      imageSrc: MobileIconImage, title: "App Development",
+      description: "At Ethicval we strive for perfection in every app we build in both ios and android"
+    },
+    {
       imageSrc: AdsIconImage,
-      title: "Ads Management",
-      description: "Smarter ads, better results. Ethic Val's expert ads management boosts ROI with tailored, budget friendly campaigns."
+      title: "Digital Marketing",
+      description: "We'll help in developing brand awareness and in strengthening engagement strategies to increase customer satisfaction."
     },
     {
       imageSrc: VideoIconImage,
-      title: "Video Marketing",
-      description: "Captivate your audience, amplify your brand. Ethic Val's video marketing creates compelling content that drives business results."
+      title: "Content Creation",
+      description: "We'll create innovative content like , short videos and podcats which will engage your audience brand value."
     },
-    {
-      imageSrc: WebIconImage, title: "Web Development",
-      description: "Online presence made easy. Ethic Val's web development team creates stunning, user-friendly websites that drive business growth."
-    },
+    
     {
       imageSrc: ReliableIconImage, title: "SEO",
       description: "Get noticed online, rank higher. Ethic Val's SEO service optimizes your website for search engines, driving traffic and boosting your online presence."
     },
-    {
-      imageSrc: ArtIconImage, title: "Digital Art",
-      description: "From 2D to 3D and a plethora of styles, Ethic Val's design service brings your ideas to life with stunning visuals that elevate your brand."
-    },
-    {
-      imageSrc: MobileIconImage, title: "Desktop And Mobile Development",
-      description: "Empower your business with cutting-edge mobile and desktop apps. Ethic Val's expert development team delivers apps with seamless performance, maintainable code and intuitive user experience in record time."
-    }
   ];
 
   return (

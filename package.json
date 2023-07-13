@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "_homepage": "https://actuday6418.github.io/ethicval",
-  "homepage": "https://n1ved.me/ethicval",
+  "homepage": "https://ethicval.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.0",
     "@testing-library/react": "^13.4.0",
