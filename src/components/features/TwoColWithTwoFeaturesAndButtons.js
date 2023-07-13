@@ -89,7 +89,7 @@ export default ({
           <TextContent>
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
-            <Description>{description}</Description>
+            {/* <Description>{description}</Description> */}
             <Features>
               {features.map((feature, index) => (
                 <Feature key={index}>

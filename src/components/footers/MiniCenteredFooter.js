@@ -42,12 +42,12 @@ export default () => {
           <LinksContainer>
             <Link href="#">Home</Link>
             <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
+            <Link href="#">Services</Link>
+            <Link href="#">Contact</Link>
+            {/* <Link href="#">Reviews</Link> */}
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://www.instagram.com/ethicval/">
+            <SocialLink href="https://www.linkedin.com/company/ethic-val/">
               <LinkedInIcon />
             </SocialLink>
             <SocialLink href="https://twitter.com/EthicVal">
@@ -58,7 +58,7 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, EthicVal Inc. All Rights Reserved.
+            &copy; Copyright 2023, EthicVal Inc. All Rights Reserved.
           </CopyrightText>
         </Row>
       </Content>

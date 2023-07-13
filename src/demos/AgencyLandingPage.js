@@ -22,7 +22,7 @@ export default () => (
     <Features />
     <MainFeature2 />
     <Portfolio />
-    <Testimonial
+    {/* <Testimonial
       subheading="Testimonials"
       heading={
         <>
@@ -53,7 +53,7 @@ export default () => (
         }
       ]}
       textOnLeft={true}
-    />
+    /> */}
     <FAQ
       imageSrc={customerSupportIllustrationSrc}
       imageContain={true}
@@ -65,7 +65,7 @@ export default () => (
         </>
       }
     />
-    <Blog />
+    {/* <Blog /> */}
     <ContactUsForm />
     <Footer />
   </AnimationRevealPage>

@@ -134,7 +134,7 @@ export default ({
 
   return (
     <AnimationRevealPage disabled>
-      <Container tw="bg-gray-100 -mx-8 -mt-8 pt-8 px-8">
+      <Container tw="bg-gray-100 -mx-0 -mt-0 pt-8 px-8">
         <Content2Xl>
           <NavRow>
             <LogoLink href="/">

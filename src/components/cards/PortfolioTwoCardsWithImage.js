@@ -18,7 +18,7 @@ const HeadingColumn = styled(Column)(props => [
   tw`w-full xl:w-5/12`,
   props.textOnLeft ? tw`xl:order-first` : tw`xl:order-last xl:ml-12 xl:mr-0`
 ]);
-const CardColumn = tw(Column)`w-full md:w-1/2 xl:w-3/12 mt-16 xl:mt-0 xl:last:ml-auto`;
+const CardColumn = tw(Column)`w-full md:w-1/2 xl:w-6/12 mt-16 xl:mt-0 xl:last:ml-auto`;
 
 const HeadingInfoContainer = tw.div`text-center xl:text-left max-w-lg xl:max-w-none mx-auto xl:mx-0`;
 const HeadingTitle = tw(SectionHeading)`mt-4 xl:text-left leading-tight`;
@@ -30,7 +30,7 @@ const PrimaryLink = styled(PrimaryLinkBase)`
   }
 `;
 
-const Card = tw.div`mx-auto xl:mx-0 xl:ml-auto max-w-sm md:max-w-xs lg:max-w-sm xl:max-w-xs`;
+const Card = tw.div`mx-auto xl:mx-0 xl:ml-auto max-w-md md:max-w-md lg:max-w-md xl:max-w-md`;
 const CardImage = styled.div(props => [
   `background-image: url("${props.imageSrc}");`,
   tw`h-80 bg-cover bg-center rounded`
@@ -71,22 +71,22 @@ export default ({
   const cards = [
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1563461660947-507ef49e9c47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Tesla Inc.",
-      type: "Ad Campaign",
-      title: "Personalized Ad Campaign using Google AdWords",
+        "https://firebasestorage.googleapis.com/v0/b/nearpg-test.appspot.com/o/Hero-02-01.jpeg?alt=media&token=66852885-5987-45e7-ac7f-67f6d6ac9120",
+      company: "ShapeRoute",
+      type: "App Development",
+      title: "A crypto fitness tracker, one of the well know conglomerate collaborated with us for their fitness product",
       durationText: "90 Days Campaign",
-      locationText: "New York"
+      locationText: "Eranakulam"
     },
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Nestle",
-      type: "SEO Marketing",
-      title: "Ranking #1 for keywords like Chocolate, Snack",
-      durationText: "180 Day Campaign",
-      locationText: "Palo Alto"
-    }
+    // {
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
+    //   company: "Nestle",
+    //   type: "SEO Marketing",
+    //   title: "Ranking #1 for keywords like Chocolate, Snack",
+    //   durationText: "180 Day Campaign",
+    //   locationText: "Palo Alto"
+    // }
   ];
   return (
     <Container>
@@ -96,10 +96,10 @@ export default ({
             <HeadingInfoContainer>
               <Subheading>{subheading}</Subheading>
               <HeadingTitle>{headingHtmlComponent}</HeadingTitle>
-              <HeadingDescription>{description}</HeadingDescription>
-              <PrimaryLink>
+              {/* <HeadingDescription>{description}</HeadingDescription> */}
+              {/* <PrimaryLink>
                 {linkText} <ArrowRightIcon />
-              </PrimaryLink>
+              </PrimaryLink> */}
             </HeadingInfoContainer>
           </HeadingColumn>
           {cards.map((card, index) => (
@@ -114,13 +114,13 @@ export default ({
                   <CardTitle>{card.title}</CardTitle>
                   <CardMeta>
                     <CardMetaFeature>
-                      <TimeIcon /> {card.durationText}
+                      {}
                     </CardMetaFeature>
-                    <CardMetaFeature>
-                      <LocationIcon /> {card.locationText}
+                    <CardMetaFeature>            
+                      {/* <LocationIcon /> {card.locationText} */}
                     </CardMetaFeature>
                   </CardMeta>
-                  <CardAction>{cardLinkText}</CardAction>
+                  {/* <CardAction>{cardLinkText}</CardAction> */}
                 </CardText>
               </Card>
             </CardColumn>
