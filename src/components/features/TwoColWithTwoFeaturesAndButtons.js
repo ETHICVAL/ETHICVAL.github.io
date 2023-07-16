@@ -43,7 +43,7 @@ const FeatureText = tw.div`mt-4 md:mt-0 md:ml-4 text-center md:text-left`;
 const FeatureHeading = tw.div`font-bold text-lg text-primary-500`;
 const FeatureDescription = tw.div`mt-1 text-sm`;
 
-const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block mx-auto md:mx-0`;
+const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block mx-auto md:mx-0 no-underline bg-primary-600`;
 
 export default ({
   subheading = "Our Expertise",
@@ -54,7 +54,7 @@ export default ({
   ),
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
   primaryButtonText = "See Our Portfolio",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "https://ethicval.tech",
   features = null,
   textOnLeft = true
 }) => {

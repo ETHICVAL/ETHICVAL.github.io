@@ -28,13 +28,13 @@ const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:t
 const Form = tw.form`mt-8 md:mt-10 text-sm flex flex-col lg:flex-row`
 const Input = tw.input`border-2 px-5 py-3 rounded focus:outline-none font-medium transition duration-300 hocus:border-primary-500`
 
-const SubmitButton = tw(PrimaryButtonBase)`inline-block lg:ml-6 mt-6 lg:mt-0`
+const SubmitButton = tw(PrimaryButtonBase)`inline-block lg:ml-6 mt-6 lg:mt-0 bg-primary-600 border-0`
 
 export default ({
   subheading = "Contact Us",
   heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
   description = "We are a team of experienced  developers  and who loves to give the best output for your business",
-  submitButtonText = "Contact Me",
+  submitButtonText = "Contact Us",
   formAction = "#",
   formMethod = "get",
   textOnLeft = true,

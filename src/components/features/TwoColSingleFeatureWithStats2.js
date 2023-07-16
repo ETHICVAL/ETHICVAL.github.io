@@ -34,7 +34,7 @@ const Value = tw.div`font-bold text-lg sm:text-xl lg:text-2xl text-secondary-500
 const Key = tw.div`font-medium text-blue-700`;
 
 const PrimaryButton = tw(PrimaryButtonBase)`mt-8 md:mt-10 text-sm inline-block mx-auto md:mx-0 bg-yellow-200 text-white
-  hocus:bg-yellow-600 hocus:text-secondary-800 focus:shadow-outline
+  hocus:bg-yellow-600 hocus:text-secondary-800 focus:shadow-outline no-underline
 `;
 
 const DecoratorBlob = styled(SvgDotPattern)(props => [
@@ -50,7 +50,7 @@ export default ({
   ),
   description = "At Ethic Val, we are go-getters and visionaries. We believe that anything is possible when you combine hard work, ethical values, and a bold vision. Our team is made up of experienced professionals who are passionate about creating digital solutions that help our clients succeed. We are not content with simply meeting expectations - we aim to exceed them at every turn. Our commitment to quality work, delivered on time and with integrity, is what sets us apart from the competition. When you work with Ethic Val, you can expect nothing less than excellence in every aspect of our work.",
   primaryButtonText = "Learn More",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "https://ethicval.tech",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
   imageContainerCss = null,
