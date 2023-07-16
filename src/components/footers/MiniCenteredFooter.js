@@ -3,7 +3,7 @@ import "./style.css";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { Container as ContainerBase } from "components/misc/Layouts.js"
-import logo from "../../images/logo.svg";
+import logo from "../../images/logo.png";
 import { ReactComponent as InstagramIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as LinkedInIcon } from "../../images/linkedin-icon.svg";
