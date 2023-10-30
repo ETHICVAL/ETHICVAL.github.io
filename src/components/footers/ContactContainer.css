@@ -1,0 +1,22 @@
+.mainContainer{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.contactHeading{
+    text-align: center;
+    margin-bottom: 7px;
+}
+.contactItem{
+    margin-bottom: 5px;
+    color: white;
+}
+.contactItem a{
+    color: white;
+    text-decoration: none;
+}
+
+.contact-icon-png{
+    width: 15px;
+}
+

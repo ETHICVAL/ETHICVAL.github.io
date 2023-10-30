@@ -48,7 +48,7 @@ export default ({
       We get the job <wbr /> <span tw="text-blue-700">done.</span>
     </>
   ),
-  description = "At Ethic Val, we are go-getters and visionaries. We believe that anything is possible when you combine hard work, ethical values, and a bold vision. Our team is made up of experienced professionals who are passionate about creating digital solutions that help our clients succeed. We are not content with simply meeting expectations - we aim to exceed them at every turn. Our commitment to quality work, delivered on time and with integrity, is what sets us apart from the competition. When you work with Ethic Val, you can expect nothing less than excellence in every aspect of our work.",
+  description = "At EthicVal, we are go-getters and visionaries. We believe that anything is possible when you combine hard work, ethical values, and a bold vision. Our team is made up of experienced professionals who are passionate about creating digital solutions that help our clients succeed. We are not content with simply meeting expectations - we aim to exceed them at every turn. Our commitment to quality work, delivered on time and with integrity, is what sets us apart from the competition. When you work with Ethic Val, you can expect nothing less than excellence in every aspect of our work.",
   primaryButtonText = "Learn More",
   primaryButtonUrl = "https://ethicval.tech",
   imageSrc = StatsIllustrationSrc,
