@@ -52,7 +52,7 @@ export default () => {
             <SocialLink href="https://twitter.com/EthicVal">
               <TwitterIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink href="https://www.instagram.com/ethicval/">
               <InstagramIcon/>
             </SocialLink>
           </SocialLinksContainer>
