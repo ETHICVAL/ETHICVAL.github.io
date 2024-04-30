@@ -2,7 +2,6 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
-
 import logo from "../../images/logo.png";
 import { ReactComponent as LinkedInIcon } from "../../images/linkedin-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
@@ -35,6 +34,8 @@ const SocialLink = styled.a`
   }
 `;
 
+const Links = tw.div`flex flex-col justify-center items-center text-center min-w-full md:flex-row md:min-w-0`;
+
 export default () => {
   return (
     <Container>
@@ -57,12 +58,12 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
         </WideColumn>
-        <div className={"flex flex-row min-w-full text-center justify-center items-center "}>
+        <Links>
               <Link href="#home">Home</Link>
               <Link href="#about">About</Link>
               <Link href="#services">Services</Link>
               <Link href="#contact">Contact</Link>
-        </div>
+        </Links>
       </FiveColumns>
     </Container>
   );
