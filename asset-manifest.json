@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d0d0a4f1.css",
-    "main.js": "/static/js/main.b62a14f6.js",
+    "main.js": "/static/js/main.78a06d48.js",
     "static/media/stats-illustration.svg": "/static/media/stats-illustration.89e20edcbf2cccadc1f28b4a73a486ac.svg",
     "static/media/email-illustration.svg": "/static/media/email-illustration.84fb82b841c197337a4bc2c1e660d5a0.svg",
     "static/media/logo.png": "/static/media/logo.2e160358fee3946871cc.png",
@@ -24,13 +24,12 @@
     "static/media/svg-decorator-blob-5.svg": "/static/media/svg-decorator-blob-5.3175ec4088eed43061604a370e074787.svg",
     "static/media/svg-decorator-blob-1.svg": "/static/media/svg-decorator-blob-1.882b52f533a5f881fbac3178df042bb0.svg",
     "static/media/tag.svg": "/static/media/tag.00341c400f8266a201fd9150eafe62dc.svg",
-    "static/media/arrow-right-icon.svg": "/static/media/arrow-right-icon.c4ea6a92d136f418f96b1c9e930f56cc.svg",
     "static/media/menu.svg": "/static/media/menu.644fa295fdd5f662e642ba6bfb084239.svg",
     "static/media/briefcase.svg": "/static/media/briefcase.21248a068c385cec74542746ea8c5e8c.svg",
+    "static/media/star.svg": "/static/media/star.8070f2335a60a0172b4cde8fddb5b020.svg",
     "static/media/dollar-sign.svg": "/static/media/dollar-sign.8d9a6f938731fde21207ac6851ae5fcb.svg",
     "static/media/map-pin.svg": "/static/media/map-pin.8c41fcd32a64210260619a622335959e.svg",
     "static/media/user.svg": "/static/media/user.780a52a3688dd2fd0230fe4949982dd5.svg",
-    "static/media/clock.svg": "/static/media/clock.38585fec598ef79bfbd0c5c4b099074a.svg",
     "static/media/plus.svg": "/static/media/plus.887d2aad484110b1f963a4231aa8b89d.svg",
     "static/media/x.svg": "/static/media/x.6c9a4ba71a333be7b021fc6da39d864c.svg",
     "static/media/chevron-left.svg": "/static/media/chevron-left.982a40d4f9e3cf9fdaeaf4af9da46c14.svg",
@@ -38,10 +37,10 @@
     "static/media/minus.svg": "/static/media/minus.595a628f1d89b51f5ee67012ae076ac8.svg",
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.962df6cec61e5366889690a28a03b953.svg",
     "main.d0d0a4f1.css.map": "/static/css/main.d0d0a4f1.css.map",
-    "main.b62a14f6.js.map": "/static/js/main.b62a14f6.js.map"
+    "main.78a06d48.js.map": "/static/js/main.78a06d48.js.map"
   },
   "entrypoints": [
     "static/css/main.d0d0a4f1.css",
-    "static/js/main.b62a14f6.js"
+    "static/js/main.78a06d48.js"
   ]
 }
