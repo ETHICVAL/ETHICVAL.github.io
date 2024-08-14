@@ -78,15 +78,24 @@ export default ({
       durationText: "90 Days Campaign",
       locationText: "Eranakulam"
     },
-    // {
-    //   imageSrc:
-    //     "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-    //   company: "Nestle",
-    //   type: "SEO Marketing",
-    //   title: "Ranking #1 for keywords like Chocolate, Snack",
-    //   durationText: "180 Day Campaign",
-    //   locationText: "Palo Alto"
-    // }
+    {
+      imageSrc:
+        "https://firebasestorage.googleapis.com/v0/b/nearpg-test.appspot.com/o/Pasted%20image.png?alt=media&token=d9b7b4b4-45af-4208-a313-3ec65c27b544",
+      company: "MediTEC Devices",
+      type: "Web Development",
+    },
+    {
+      imageSrc:
+          "https://firebasestorage.googleapis.com/v0/b/nearpg-test.appspot.com/o/Pasted%20image%20(4).png?alt=media&token=cc60f594-15a1-4491-aa36-529e52c6fbaa",
+      company: "CUWA",
+      type: "Web Development",
+    },
+    {
+      imageSrc:
+          "https://firebasestorage.googleapis.com/v0/b/nearpg-test.appspot.com/o/Pasted%20image.png?alt=media&token=d9b7b4b4-45af-4208-a313-3ec65c27b544",
+      company: "MediTEC Devices",
+      type: "Web Development",
+    }
   ];
   return (
     <Container>
